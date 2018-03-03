@@ -35,12 +35,11 @@ jupyter notebook --ip=0.0.0.0 --port=8888
 # 啟動程式
 #Streaming模式(影像從相機來)  
 run imageStreaming.py  
-<iframe width="854" height="480" src="https://www.youtube.com/watch?v=t0E1T7kDaRE" frameborder="0" allowfullscreen></iframe>
+"https://www.youtube.com/watch?v=t0E1T7kDaRE"
 
 #imageFile模式(影像從檔案來)  
 run imageFile.py  
-
-<iframe width="854" height="480" src="https://www.youtube.com/watch?v=BKBCUnfnR9k&t=66s" frameborder="0" allowfullscreen></iframe>
+"https://www.youtube.com/watch?v=BKBCUnfnR9k&t=66s"  
 
 # 訓練模型
 按照data/train中的格式，要分幾類就開幾個資料夾，Keras imageGenerator會自動檔把資料夾名稱當類別名稱  
